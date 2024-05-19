@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/fontawesome.all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/script.js"></script>
+    <title>
+        Student-details - Website
+    </title>
+</head>
+<body>
+
+    <header id="header" class="container-fluid px-4 px-sm-5">
+  <nav class="py-5 d-flex justify-content-between align-items-center">
+    <div class="order-1">
+      <a class="navbar-brand" href="homepage.html">
+        <img src="./images/logo.svg" alt="logo" class="img-fluid d-inline-block align-text-center" style="max-height: 40px">
+      </a>
+    </div>
+    <div class="order-3 order-md-2">
+      <div class="navbar navbar-expand-md navbar-light">
+    <button class="navbar-toggler rounded-pill" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start p-3" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <img src="./images/logo.svg" alt="logo" class="img-fluid d-inline-block align-text-center" style="max-height: 40px">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav gap-2 gap-lg-5 flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a id="nav-home" class="nav-link" aria-current="page" href="homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-book" class="nav-link " href="dashboard-search.html">Book Now</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-about" class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="d-none d-sm-flex gap-3 order-2 order-md-3">
+      
+<a 
+href="login.html" 
+class="
+btn btn-light btn-md 
+rounded-pill px-5 py-3 fw-bold
+
+"
+role="button"
+>
+    Sign Up
+</a>
+      
+<a 
+href="login.html" 
+class="
+btn btn-primary btn-md 
+rounded-pill px-5 py-3 fw-bold
+
+"
+role="button"
+>
+    Log In
+</a>
+    </div>
+  </nav>
+</header>
+    <main>
+        <script>
+  document.querySelector("#nav-book").classList.add("active");
+</script>
+<section class="container p-4">
+  <form action="not-found.html" method="POST" class="row gx-5">
+    <div class="col-md">
+      <div class="mb-3">
+        <a href="mentor-details.html" class="btn btn-light px-3 rounded-pill">
+          <i class="fa fa-arrow-left me-2"></i>
+          Back
+        </a>
+      </div>
+      <div class="fw-bold fs-1">
+        <span class="bg-secondary px-2">Student Details</span>
+      </div>
+      <hr>
+      
+      <div class="py-3">
+        <div class="d-flex flex-column flex-sm-row gap-3">
+          <div class="form-group col">
+            <label for="name">First Name *</label>
+            <input type="text" class="form-control border-dark py-3 px-4 my-2 mb-3 rounded-5" id="name" name="name" placeholder="Enter your first name">
+          </div>
+          <div class="form-group col">
+            <label for="name">Last Name</label>
+            <input type="text" class="form-control border-dark py-3 px-4 my-2 mb-3 rounded-5" id="name" name="name" placeholder="Enter your last name">
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row gap-3">
+          <div class="col">
+            <div class="form-group">
+              <label for="name">Requested Materials *</label>
+              <input type="text" class="form-control border-dark py-3 px-4 my-2 mb-3 rounded-5 py-4" id="name" name="name" placeholder="Enter materials">
+            </div>
+            <div class="form-group">
+              <label for="name">Add your Message</label>
+              <input type="text" class="form-control border-dark py-3 px-4 my-2 mb-3 rounded-5" id="name" name="name" placeholder="Enter your message">
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label for="name">Linked Attachments</label>
+              <div class="form-control border-dark py-3 px-4 my-2 mb-3 rounded-5 text-center py-4">
+                <img class="my-2" src="./images/attach-icon.svg" alt="" height="80">
+                <div class="small text-muted py-2">
+                  <u>Click here to attach a document</u>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 py-5 fs-5">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Booking Details
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+            <div class="accordion-body p-3 border-bottom border-primary">
+              <div>
+                <strong>William Chandra</strong><br/>
+                Tutor | Matematika SMA
+              </div>
+              <div class="py-2">
+                <div>Tuesday, 28 April 2024</div>
+                <div>16.00 - 17.00 PM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-4 px-2">
+        <strong>Payment Details</strong>
+        <div class="d-flex justify-content-between py-3 mb-3">
+          <div>Total</div>
+          <div>Rp85.000</div>
+        </div>
+      </div>
+      <div class="d-grid">
+        
+<button
+class="
+btn btn-dark btn-lg
+rounded-pill
+
+py-3
+
+"
+type="submit"
+>
+    Book Now
+</button>
+      </div>
+    </div>
+  </form>
+</section>
+<div class="py-5"></div>
+    </main>
+    <footer class="container-fluid py-5 px-4 px-sm-5">
+  <div class="row g-3">
+    <div class="col-md-4">
+      <a href="homepage.html" class="">
+        <img src="./images/logo.svg" alt="logo" class="img-fluid" style="max-height: 40px">
+      </a>
+      <div class="my-3 col-sm-10">
+        <p class="text-muted m-0">
+          Our mentors are here to review your strategies, refine your ideas, and rev up your confidence—no question is too big or too unique for us to tackle together
+        </p>
+      </div>
+    </div>
+    <div class="col-md" style="line-height: 2;">
+      <h5 class="">Quick Links</h5>
+      <div class="d-flex flex-column">
+        <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+        <a class="nav-link" href="dashboard-search.html">Book Now</a>
+        <a class="nav-link" href="about.html">About Us</a>
+      </div>
+    </div>
+    <div class="col-md">
+      <h5 class="">Social Links</h5>
+      <div class="fs-3">
+        <a href="#" target="_blank" class="text-decoration-none text-muted me-3">
+          <i class="fab fa-facebook text-dark"></i>
+        </a>
+        <a href="#" target="_blank" class="text-decoration-none text-muted me-3">
+          <i class="fa-brands fa-linkedin text-dark"></i>
+        </a>
+        <a href="#" target="_blank" class="text-decoration-none text-muted me-3">
+          <i class="fa-brands fa-youtube text-dark"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <p class="text-center text-muted">© 2024 Mentor Net.</p>
+</footer>
+
+
+
+    <script src="./scripts/bootstrap.js"></script>
+    <script src="./scripts/fontawesome.all.min.js"></script>
+    
+</body>
+</html>

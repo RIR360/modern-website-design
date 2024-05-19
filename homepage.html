@@ -1,0 +1,585 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/fontawesome.all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/script.js"></script>
+    <title>
+        Homepage - Website
+    </title>
+</head>
+<body>
+
+    <header id="header" class="container-fluid px-4 px-sm-5">
+  <nav class="py-5 d-flex justify-content-between align-items-center">
+    <div class="order-1">
+      <a class="navbar-brand" href="homepage.html">
+        <img src="./images/logo.svg" alt="logo" class="img-fluid d-inline-block align-text-center" style="max-height: 40px">
+      </a>
+    </div>
+    <div class="order-3 order-md-2">
+      <div class="navbar navbar-expand-md navbar-light">
+    <button class="navbar-toggler rounded-pill" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start p-3" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <img src="./images/logo.svg" alt="logo" class="img-fluid d-inline-block align-text-center" style="max-height: 40px">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav gap-2 gap-lg-5 flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a id="nav-home" class="nav-link" aria-current="page" href="homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-book" class="nav-link " href="dashboard-search.html">Book Now</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-about" class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="d-none d-sm-flex gap-3 order-2 order-md-3">
+      
+<a 
+href="login.html" 
+class="
+btn btn-light btn-md 
+rounded-pill px-5 py-3 fw-bold
+
+"
+role="button"
+>
+    Sign Up
+</a>
+      
+<a 
+href="login.html" 
+class="
+btn btn-primary btn-md 
+rounded-pill px-5 py-3 fw-bold
+
+"
+role="button"
+>
+    Log In
+</a>
+    </div>
+  </nav>
+</header>
+    <main>
+        <script>
+  activeNav("home");
+</script>
+<div class="container text-center py-5">
+  <img class="img-fluid" src="./images/home-feature-image.png" alt="" style="max-height: 250px;">
+  <div class="col-sm-8 col-md-5 mx-auto">
+    <form action="/dashboard-search" class="shadow-lg rounded-pill p-3" style="background-color: #f7f7f7;">
+    <div class="input-group">
+        <div class="input-group-text" style="background-color: transparent; border: none;">
+            <i class="fa fa-search fs-5"></i>
+        </div>
+        <input type="search" class="form-control no-stroke" placeholder="What do you need help with today?"
+            aria-label="Search" aria-describedby="search-addon" />
+    </div>
+</form>
+  </div>
+</div>
+
+<div class="py-5"></div>
+
+<section class="container-fluid py-5 px-5">
+  <div class="d-md-flex gap-5">
+    <div class="d-flex gap-2 mb-4">
+      <div style="width: 300px">
+        <h1 class="fw-bold mb-0" style="line-height: 1;">
+          OUR SERVICES
+          <img src="./images/underline-section.svg" style="width: 100%;" alt="">
+        </h1>
+      </div>
+      <div class="pt-2">
+        <img src="./images/star-hand.svg" alt="" width="30">
+      </div>
+    </div>
+    <div class="ps-5 border-start border-dark border-1 d-flex align-items-center">
+      We're ready to help whenever you need it,<br/> no strings attached.
+    </div>
+  </div>
+
+  <div class="d-flex gap-4 py-5 flex-wrap">
+    <div class="col" style="min-width: 400px;">
+      
+<div class="rounded-5 bg-warning overflow-hidden shadow-md">
+    <div class="
+        fw-bold py-5 px-4 d-flex justify-content-between
+        bg-dark text-white
+    ">
+      <div>
+        <span class="fs-5 me-3">1</span>
+        <span class="px-4 py-3 rounded-pill border border-white">MODES</span>
+      </div>
+      <div>
+        <span class="p-3 rounded-pill border border-white">
+          <i class="fa fa-plus fs-5"></i>
+        </span>
+      </div>
+    </div>
+    <div class="bg-white p-4 d-flex gap-3">
+        <div>
+            <div class="d-flex justify-content-center align-items-center border border-gray rounded-4 p-3" style="width: 90px; height: 90px;">
+                <img src="./images/b-ic.png" alt="" class="d-block m-auto" width="55">
+            </div>
+        </div>
+        <div>
+            <h4 class="fw-bold">TUTOR</h4>
+            <div class="small">
+                
+                    
+<button
+class="
+badge text-white bg-dark
+rounded-pill
+px-2 py-auto
+border-0
+mb-1
+"
+type="button"
+>
+    subjects
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-white
+rounded-pill
+px-2 py-auto
+border border-gray
+mb-1
+"
+type="button"
+>
+    smp
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-white
+rounded-pill
+px-2 py-auto
+border border-gray
+mb-1
+"
+type="button"
+>
+    sma
+</button>
+                
+            </div>
+            <div class="small">
+                
+                    
+<button
+class="
+badge text-white bg-dark
+rounded-pill
+px-2 py-auto
+border-0
+
+"
+type="button"
+>
+    OSN
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-light
+rounded-pill
+px-2 py-auto
+border border-gray
+
+"
+type="button"
+>
+    MATH
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-light
+rounded-pill
+px-2 py-auto
+border border-gray
+
+"
+type="button"
+>
+    PHYS
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-light
+rounded-pill
+px-2 py-auto
+border border-gray
+
+"
+type="button"
+>
+    CHEM
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-light
+rounded-pill
+px-2 py-auto
+border border-gray
+
+"
+type="button"
+>
+    ECON
+</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <div class="col" style="min-width: 400px;">
+      
+<div class="rounded-5 bg-warning overflow-hidden shadow-md">
+    <div class="
+        fw-bold py-5 px-4 d-flex justify-content-between
+        bg-primary text-dark
+    ">
+      <div>
+        <span class="fs-5 me-3">2</span>
+        <span class="px-4 py-3 rounded-pill border border-dark">MODES</span>
+      </div>
+      <div>
+        <span class="p-3 rounded-pill border border-dark">
+          <i class="fa fa-plus fs-5"></i>
+        </span>
+      </div>
+    </div>
+    <div class="bg-white p-4 d-flex gap-3">
+        <div>
+            <div class="d-flex justify-content-center align-items-center border border-gray rounded-4 p-3" style="width: 90px; height: 90px;">
+                <img src="./images/c-ic.png" alt="" class="d-block m-auto" width="55">
+            </div>
+        </div>
+        <div>
+            <h4 class="fw-bold">CONSULT</h4>
+            <div class="small">
+                
+                    
+<button
+class="
+badge text-dark bg-primary
+rounded-pill
+px-2 py-auto
+border-0
+mb-1
+"
+type="button"
+>
+    PUSPRESNAS
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-white
+rounded-pill
+px-2 py-auto
+border border-gray
+mb-1
+"
+type="button"
+>
+    FIKSI
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-white
+rounded-pill
+px-2 py-auto
+border border-gray
+mb-1
+"
+type="button"
+>
+    OPSI
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-white
+rounded-pill
+px-2 py-auto
+border border-gray
+mb-1
+"
+type="button"
+>
+    NSDC
+</button>
+                
+            </div>
+            <div class="small">
+                
+                    
+<button
+class="
+badge text-dark bg-primary
+rounded-pill
+px-2 py-auto
+border-0
+
+"
+type="button"
+>
+    OSN
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-light
+rounded-pill
+px-2 py-auto
+border border-gray
+
+"
+type="button"
+>
+    MATH
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-light
+rounded-pill
+px-2 py-auto
+border border-gray
+
+"
+type="button"
+>
+    PHYS
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-light
+rounded-pill
+px-2 py-auto
+border border-gray
+
+"
+type="button"
+>
+    ECON
+</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <div class="col" style="min-width: 400px;">
+      
+<div class="rounded-5 bg-warning overflow-hidden shadow-md">
+    <div class="
+        fw-bold py-5 px-4 d-flex justify-content-between
+        bg-secondary text-dark
+    ">
+      <div>
+        <span class="fs-5 me-3">3</span>
+        <span class="px-4 py-3 rounded-pill border border-dark">MODES</span>
+      </div>
+      <div>
+        <span class="p-3 rounded-pill border border-dark">
+          <i class="fa fa-plus fs-5"></i>
+        </span>
+      </div>
+    </div>
+    <div class="bg-white p-4 d-flex gap-3">
+        <div>
+            <div class="d-flex justify-content-center align-items-center border border-gray rounded-4 p-3" style="width: 90px; height: 90px;">
+                <img src="./images/f-ic.png" alt="" class="d-block m-auto" width="55">
+            </div>
+        </div>
+        <div>
+            <h4 class="fw-bold">DOC REVIEW</h4>
+            <div class="small">
+                
+                    
+<button
+class="
+badge text-dark bg-secondary
+rounded-pill
+px-2 py-auto
+border-0
+mb-1
+"
+type="button"
+>
+    DOCS
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-white
+rounded-pill
+px-2 py-auto
+border border-gray
+mb-1
+"
+type="button"
+>
+    English
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-white
+rounded-pill
+px-2 py-auto
+border border-gray
+mb-1
+"
+type="button"
+>
+    Bahasa Indonesia
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-white
+rounded-pill
+px-2 py-auto
+border border-gray
+mb-1
+"
+type="button"
+>
+    Research Paper
+</button>
+                
+                    
+<button
+class="
+badge text-dark bg-white
+rounded-pill
+px-2 py-auto
+border border-gray
+mb-1
+"
+type="button"
+>
+    Personal Essays
+</button>
+                
+            </div>
+            <div class="small">
+                
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md p-4">
+      <p>Struggling with calculus? Dreaming of acing the chem Olympiad? Or maybe you've got a test tomorrow that's looking more like a nightmare. Don't sweat it!</p>
+      <p>MentorNet is the sidekick for your studies, especially you're cramming at the eleventh hour. We’ll match you with brainy students who’ve been there done that. Who better to ask than former champions?</p>
+    </div>
+    <div class="col-md p-4">
+      <p>When you're aiming for the stars in competitions or applying to top unis, sometimes the path isn't clear. Our consult mode is your personal compass. Tap into the wisdom of mentors who've been in your shoes and emerged victorious.</p>
+      <p>Our mentors are here to review your strategies, refine your ideas, and rev up your confidence—no question is too big or too unique for us to tackle together.</p>
+    </div>
+    <div class="col-md p-4">
+      <p>
+        Got an essay that's almost there but just not quite? Research paper a bit rough around the edges? We’re here to save the day! Send us your drafts (school assignments, uni essays, research papers) and our mentors will sprinkle their magic dust over them.
+      </p>
+      <p>Expect annotated feedback, insightful suggestions, an proofreading that transforms good into great, all within 1-2 hours. Just upload your document, and voilà, receive your polished piece ready to impress.</p>
+    </div>
+  </div>
+
+</section>
+<div class="py-5"></div>
+
+    </main>
+    <footer class="container-fluid py-5 px-4 px-sm-5">
+  <div class="row g-3">
+    <div class="col-md-4">
+      <a href="homepage.html" class="">
+        <img src="./images/logo.svg" alt="logo" class="img-fluid" style="max-height: 40px">
+      </a>
+      <div class="my-3 col-sm-10">
+        <p class="text-muted m-0">
+          Our mentors are here to review your strategies, refine your ideas, and rev up your confidence—no question is too big or too unique for us to tackle together
+        </p>
+      </div>
+    </div>
+    <div class="col-md" style="line-height: 2;">
+      <h5 class="">Quick Links</h5>
+      <div class="d-flex flex-column">
+        <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+        <a class="nav-link" href="dashboard-search.html">Book Now</a>
+        <a class="nav-link" href="about.html">About Us</a>
+      </div>
+    </div>
+    <div class="col-md">
+      <h5 class="">Social Links</h5>
+      <div class="fs-3">
+        <a href="#" target="_blank" class="text-decoration-none text-muted me-3">
+          <i class="fab fa-facebook text-dark"></i>
+        </a>
+        <a href="#" target="_blank" class="text-decoration-none text-muted me-3">
+          <i class="fa-brands fa-linkedin text-dark"></i>
+        </a>
+        <a href="#" target="_blank" class="text-decoration-none text-muted me-3">
+          <i class="fa-brands fa-youtube text-dark"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <p class="text-center text-muted">© 2024 Mentor Net.</p>
+</footer>
+
+
+
+    <script src="./scripts/bootstrap.js"></script>
+    <script src="./scripts/fontawesome.all.min.js"></script>
+    
+</body>
+</html>
