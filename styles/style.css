@@ -1,0 +1,125 @@
+.transparent {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+input.transparent::placeholder {
+    color: #ffffff7b;
+}
+.text-lighter {
+    color: #f0efedb9;
+}
+.bg-dark-gray {
+    background-color: #F0EFED;
+}
+.bg-gray {
+    background-color: #E9E7E3;
+}
+.bg-grayer {
+    background-color: #cfcfcf;
+}
+.bg-primary-light {
+    background-color: #ECF3EB;
+}
+.bg-dark-light {
+    background-color: #9e9fa2;
+}
+.no-stroke {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+.border-gray {
+    border-color: #6c757d !important;
+}
+.image-card {
+    background-position: left;
+    background-size: cover;
+}
+.gallery-card {
+    background-position: top;
+    background-size: cover;
+}
+.contain-card {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.x-small {
+    font-size: 0.6rem;
+}
+.smaller {
+    font-size: 0.8rem;
+}
+.smart-border {
+    border-bottom: 2px solid var(--bs-primary) !important;
+}
+.btn.active {
+    background-color: #D9D9D9 !important;
+}
+.btn.active  img {
+    filter: brightness(0.7) grayscale(1);
+}
+.border-dashed {
+    border-style: dashed !important;
+}
+.rounded-pill-l {
+    border-radius: 50px 0 0 50px !important;
+}
+.rounded-pill-r {
+    border-radius: 0 50px 50px 0 !important;
+}
+.rounded-5-r {
+    border-radius: 0 2rem 2rem 0 !important;
+}
+.rounded-5-tl {
+    border-top-left-radius: 2rem !important;
+}
+.rounded-5-bl {
+    border-bottom-left-radius: 2rem !important;
+}
+.login-image img {
+    width: 450px;
+}
+.rounded-md-5-r {
+    border-radius: 0 !important;
+}
+
+@media (min-width: 768px) {
+    /* sm */
+}
+@media (min-width: 992px) {
+    /* md */
+    .smart-border {
+        border-left: 2px solid var(--bs-primary) !important;
+    }
+    .rounded-md-5-r {
+        border-radius: 0 2rem 2rem 0 !important;
+    }
+}
+@media (min-width: 1366px) {
+    /* lg */
+}
+@media (min-width: 1920px) {
+    /* xl */
+}
+@media (min-width: 2048px) {
+    /* xxl */
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #cbf8f2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #86cac1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #67b0a6;
+}
